@@ -110,6 +110,7 @@ class SequencesExchanger {
 
         String[][] elements;
         String[][] names;
+        StringBuffer[][] sequences;
 
         //Get the number of secuences
         boolean valid = true;
@@ -159,7 +160,7 @@ class SequencesExchanger {
 
         elements = new String[species][data];
         names = new String[species][data];
-
+		sequences = new StringBuffer[species][data];
         for (int i=0; i<data; i++) {
             do {
                 int j = i+1;
@@ -249,14 +250,14 @@ class SequencesExchanger {
 
 		            p++;
 
-		            //Save data into a file
-		            fileContent.append(header);
-		            fileContent.append("\n");
-		            fileContent.append(concatenate.toString());
-		            fileContent.append("\n");
-		            fileContent.append(permutation.toString());
-		            fileContent.append("\n\n");
-		            saveFile(filePath, fileContent.toString(), false);
+                    //Save data into a file
+                    fileContent.append(header);
+                    fileContent.append("\n");
+                    fileContent.append(concatenate.toString());
+                    fileContent.append("\n");
+                    fileContent.append(permutation.toString());
+                    fileContent.append("\n\n");
+                    saveFile(filePath, fileContent.toString(), false);
 		        }
 	        }
         }

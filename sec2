@@ -1,0 +1,94 @@
+**************
+* Permutador *
+**************
+
+
+Especie 0: 
+A-B-C
+A1B2C3
+
+
+Especie 0: 
+A-C-B
+A1C3B2
+
+
+Especie 0: 
+B-A-C
+B2A1C3
+
+
+Especie 0: 
+B-C-A
+B2C3A1
+
+
+Especie 0: 
+C-A-B
+C3A1B2
+
+
+Especie 0: 
+C-B-A
+C3B2A1
+
+
+Especie 1: 
+A-B-C
+A2B1C1
+
+
+Especie 1: 
+A-C-B
+A2C1B1
+
+
+Especie 1: 
+B-A-C
+B1A2C1
+
+
+Especie 1: 
+B-C-A
+B1C1A2
+
+
+Especie 1: 
+C-A-B
+C1A2B1
+
+
+Especie 1: 
+C-B-A
+C1B1A2
+
+
+Especie 2: 
+A-B-C
+A3B3C1
+
+
+Especie 2: 
+A-C-B
+A3C1B3
+
+
+Especie 2: 
+B-A-C
+B3A3C1
+
+
+Especie 2: 
+B-C-A
+B3C1A3
+
+
+Especie 2: 
+C-A-B
+C1A3B3
+
+
+Especie 2: 
+C-B-A
+C1B3A3
+
